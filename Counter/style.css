@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    min-height: 90vh;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+}
+
+#linkedinCount{
+    font-size: 5rem;
+    color: #0e76a8;
+}
+
+#instagramCount{
+    font-size: 5rem;
+    color: #E1306C;
+}
+
+#twitterCount{
+    font-size: 5rem;
+    color:  #00acee;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+footer{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+}
