@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    height: 100vh;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin: -5rem 0rem 5rem 0rem;
+    font-size: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    margin: 0rem 0rem 5rem 0rem;
+    font-size: 8rem;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    font-size: 2.5rem;
+    color: black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    outline: none;
+    width: 35rem;
+    height: 5rem;
+    text-align: center;
+}
+
+i{
+    height: 0;
+    width: 0;
+    font-size: 7rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    margin-left: -7.5rem;
+}
+
+footer{
+    height: 20vh;
+    bottom: 0;
+    padding: 8rem 0 1rem 0;
+}
+
+footer p{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 300px) {
+    html{
+        font-size: 25%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 300px) {
+    html{
+        font-size: 28%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 400px) {
+    html{
+        font-size: 35%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html{
+        font-size: 45%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html{
+        font-size: 50%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size: 62.5%;
+    }
+}
+
+
