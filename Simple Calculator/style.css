@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    place-items: center;
+    display: grid;
+}
+
+
+.calculator{
+    width: 35rem;
+    height: 60rem;
+    background-color:white;
+    border-radius: 2rem;
+    
+    text-align: center;
+    box-shadow: 0 0 1.5rem 1rem rgba(0, 0, 0, 0.7);
+}
+
+.history{
+    font-size: 2.5rem;
+    color: #404040;
+    text-align: right;
+    height: 4rem;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    padding-bottom: 0;
+}
+
+.result{
+    font-size: 4rem;
+    color: black;
+    text-align: right;
+    height: 8rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
+.operator, .number, .empty{
+    width: 6rem;
+    height: 6rem;
+    margin: 1.3rem;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 2.75rem;
+    background-color: white;
+    cursor: pointer;
+}
+.operator{
+    background-color: yellow;
+}
+
+.operator:focus, .number:focus, .separator:focus, .empty:focus{
+    outline: 0;
+}
+
+.operator:active, .number:active, .separator:active, .empty.active{
+    font-size: 3.5rem;
+}
+
+/* .operator:hover{
+    box-shadow: 0 0 1.2rem 1rem rgba(255,255,0,0.7);
+} */
+
