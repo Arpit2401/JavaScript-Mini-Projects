@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,531&family=Pacifico&display=swap');
+
+
+html{
+    font-size: 62.5%;
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+.main_div{
+    display: grid;
+    place-items: center;    
+}
+
+.music_container{
+    height: 55rem;
+    width: 35rem;
+    margin-top: 7.5rem;
+    align-self: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 0.2rem 1rem 1.5rem rgba(70,102,255,0.4);
+}
+
+.music_container:hover{
+    box-shadow: 0 0.2rem 1rem 1.5rem rgba(70,102,255,0.5);
+}
+
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: auto;
+    text-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+h3{
+    font-size: 1.75rem;
+    text-align: center;
+    color: grey;
+    margin-top: 1rem;
+}
+
+.img_container{
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;    
+}
+
+.controllers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.controllers .fas{
+    color: black;
+    cursor: pointer; 
+    font-size: 2.5rem;
+    filter: drop-shadow(0 1.2rem 3rem 0.5rem rgba(70,102,255,0.4));
+}
+
+.controllers .main_button{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+.controllers .fas:hover{
+    color: #008DFF;
+}
+
+.controllers .main_button:hover{
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 0 2rem 2rem 0.2rem rgba(0, 0, 0, 0.4);
+}
+
+.animate{
+    animation: picturePop 2s linear infinite;
+}
+
+.slider_container { 
+    width: 90%; 
+    max-width: 100rem; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: auto;
+  } 
+    
+  .seek_slider, .volume_slider { 
+    height: 5px; 
+  } 
+    
+  /* Change the opacity when mouse is hovered */
+  .seek_slider:hover, 
+  .volume_slider:hover { 
+    opacity: 1.0; 
+  } 
+    
+  .seek_slider { 
+    width: 75%; 
+  } 
+    
+  .volume_slider { 
+    width: 30%; 
+  } 
+    
+  .current-time, 
+  .total-duration { 
+    padding: 10px; 
+    font-size: 1.2rem;
+  } 
+    
+  i.fa-volume-down, 
+  i.fa-volume-up { 
+    padding: 10px; 
+    font-size: 1.5rem;
+  } 
+
+
+@keyframes picturePop{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    75%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
